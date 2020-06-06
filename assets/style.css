@@ -92,7 +92,7 @@ a:focus,
 a,
 a:active,
 a:focus,
-a:active {
+a:active { 
   text-decoration: none;
 }
 
