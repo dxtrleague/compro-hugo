@@ -1,0 +1,7 @@
+baseURL = "http://example.org/"
+languageCode = "en-us"
+title = "Compro"
+theme = "navigator-hugo"
+absUrl = "C:/Users/Fahd/Pictures"
+home = "home.md"
+name = ["ada","lagi"]
