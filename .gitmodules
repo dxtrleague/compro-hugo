@@ -1,0 +1,4 @@
+[submodule "public"]
+	path = public
+	url = git@github.com:dxtrleague/dxtrleague.github.io.git
+	branch = master
