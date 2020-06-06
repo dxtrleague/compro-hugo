@@ -2,3 +2,7 @@
 	path = public
 	url = git@github.com:dxtrleague/dxtrleague.github.io.git
 	branch = master
+[submodule "themes/vex-hugo"]
+	path = themes/vex-hugo
+	url = git@github.com:themefisher/vex-hugo.git
+	branch = master
