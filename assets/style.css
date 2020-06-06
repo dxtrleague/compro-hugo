@@ -65,7 +65,7 @@ a {
 }
 
 .bg-orange {
-  background: #f9a743;
+  background: #ff005d;
 }
 
 .bg-opacity {
@@ -166,13 +166,13 @@ a:active {
   font-size: 18px;
   padding: 15px 40px;
   display: inline-block;
-  background-color: #f9a743;
+  background-color: #ff005d;
   box-shadow: 0 15px 40px rgba(249, 167, 68, 0.5);
   background-image: linear-gradient(bottom, rgba(255, 239, 206, 0) 0%, rgba(255, 239, 206, 0.25) 100%);
 }
 
 .btn-main:hover, .btn-main:focus {
-  background-color: #f9a743;
+  background-color: #ff005d;
   color: #fff;
 }
 
@@ -202,7 +202,7 @@ a:active {
 .pre-loader {
   width: 130px;
   height: 130px;
-  background: #f9a743;
+  background: #ff005d;
   border-radius: 50%;
   animation: loading 6s infinite reverse linear;
   position: relative;
@@ -224,11 +224,11 @@ a:active {
 @-webkit-keyframes loading {
   /*  */
   0% {
-    box-shadow: inset 0 0 0 80px #f9a743;
+    box-shadow: inset 0 0 0 80px #ff005d;
   }
   8.49% {
-    background: #f9a743;
-    box-shadow: inset 0 0 0 160px #f9a743;
+    background: #ff005d;
+    box-shadow: inset 0 0 0 160px #ff005d;
   }
   /* orange */
   8.5% {
@@ -248,11 +248,11 @@ a:active {
   }
   /*  */
   41.5% {
-    box-shadow: inset 0 0 0 0 #f9a743;
+    box-shadow: inset 0 0 0 0 #ff005d;
   }
   57.99% {
-    background: #f9a743;
-    box-shadow: inset 0 0 0 160px #f9a743;
+    background: #ff005d;
+    box-shadow: inset 0 0 0 160px #ff005d;
   }
   /* blue */
   58% {
@@ -272,22 +272,22 @@ a:active {
   }
   /*  */
   91% {
-    box-shadow: inset 0 0 0 0 #f9a743;
+    box-shadow: inset 0 0 0 0 #ff005d;
   }
   100% {
-    background: #f9a743;
-    box-shadow: inset 0 0 0 80px #f9a743;
+    background: #ff005d;
+    box-shadow: inset 0 0 0 80px #ff005d;
   }
 }
 
 @keyframes loading {
   /*  */
   0% {
-    box-shadow: inset 0 0 0 80px #f9a743;
+    box-shadow: inset 0 0 0 80px #ff005d;
   }
   8.49% {
-    background: #f9a743;
-    box-shadow: inset 0 0 0 160px #f9a743;
+    background: #ff005d;
+    box-shadow: inset 0 0 0 160px #ff005d;
   }
   /* orange */
   8.5% {
@@ -307,11 +307,11 @@ a:active {
   }
   /*  */
   41.5% {
-    box-shadow: inset 0 0 0 0 #f9a743;
+    box-shadow: inset 0 0 0 0 #ff005d;
   }
   57.99% {
-    background: #f9a743;
-    box-shadow: inset 0 0 0 160px #f9a743;
+    background: #ff005d;
+    box-shadow: inset 0 0 0 160px #ff005d;
   }
   /* blue */
   58% {
@@ -331,11 +331,11 @@ a:active {
   }
   /*  */
   91% {
-    box-shadow: inset 0 0 0 0 #f9a743;
+    box-shadow: inset 0 0 0 0 #ff005d;
   }
   100% {
-    background: #f9a743;
-    box-shadow: inset 0 0 0 80px #f9a743;
+    background: #ff005d;
+    box-shadow: inset 0 0 0 80px #ff005d;
   }
 }
 
@@ -416,7 +416,7 @@ a:active {
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
-  background: #f9a743;
+  background: #ff005d;
   padding: 5px 10px;
   border-radius: 40px;
   width: 50px;
@@ -441,7 +441,7 @@ a:active {
   font-size: 40px;
   display: inline-block;
   margin-bottom: 20px;
-  color: #f9a743;
+  color: #ff005d;
 }
 
 .testimonials .testimonial-block p {

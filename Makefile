@@ -1,5 +1,5 @@
 deploy-stg:
-	./deploy.sh stg "$(m)"
+	./deploy.sh stg "rebuilding site `date`"
 
 deploy-prd:
-	./deploy.sh stg "$(m)"
+	./deploy.sh prd "rebuilding site `date`"
