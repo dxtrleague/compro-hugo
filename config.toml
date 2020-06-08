@@ -1,7 +1,7 @@
 ################################### Default Configuration ############################
 baseurl = "https://www.example.com/"
 languageCode = "en"
-title = "DXTR"
+title = "Sukalemon"
 theme = "vex-hugo"
 
 #################################### Plugins ##########################################

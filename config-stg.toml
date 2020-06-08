@@ -1,7 +1,7 @@
 ################################### Default Configuration ############################
 baseurl = "https://dxtrleague.github.io/"
 languageCode = "en"
-title = "DXTR"
+title = "Sukalemon"
 theme = "vex-hugo"
 
 #################################### Plugins ##########################################
