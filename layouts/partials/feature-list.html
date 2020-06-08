@@ -1,7 +1,7 @@
 {{ if .Site.Data.homepage.aboutProduct.enable }}
 {{ with .Site.Data.homepage.aboutProduct }}
-<section class="feature-list section">
-  <div class="container">
+<section class="feature-list section" id="feature-list">
+  <div class="container" >
     <div class="row">
       <div class="col-md-12">
         <div class="heading">
@@ -17,8 +17,15 @@
       </div>
       <div class="col-md-6 align-self-center text-center text-md-left">
         <div class="content">
-          <h4 class="subheading">{{ .title | markdownify }}</h4>
-          <p>{{ .content | markdownify }}</p>
+          <h4 class="subheading" style="font-size: 55px;">{{ .title | markdownify }}</h4>
+          {{ range .content}}
+          <ul>
+            <li style="font-size: 19px; font-weight: bold;">
+              - {{ . }}
+            </li>
+          </ul>
+            {{/*  <p>{{ .contentItem | markdownify }}</p>  */}}
+          {{ end }}
           {{ if .button.enable }}
           {{ with .button }}
           <a href="{{ .link | absURL }}" class="btn btn-main btn-main-sm">{{ .label }}</a>
@@ -31,8 +38,15 @@
     <div class="row mb-40">
       <div class="col-md-6 order-md-1 order-2 align-self-center text-center text-md-left">
         <div class="content">
-          <h4 class="subheading">{{ .title | markdownify }}</h4>
-          <p>{{ .content | markdownify }}</p>
+          <h3 class="subheading" style="font-size: 55px;">{{ .title | markdownify }}</h3>
+          {{ range .content}}
+          <ul>
+            <li style="font-size: 19px; font-weight: bold;">
+              - {{ . }}
+            </li>
+          </ul>
+            {{/*  <p>{{ .contentItem | markdownify }}</p>  */}}
+          {{ end }}
           {{ if .button.enable }}
           {{ with .button }}
           <a href="{{ .link | absURL }}" class="btn btn-main btn-main-sm">{{ .label }}</a>

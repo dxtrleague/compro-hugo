@@ -1,10 +1,11 @@
 ############################# banner ############################
 banner:
   enable : true
-  title : "We brings love in apps development"
-  content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas, modi fugit in veritatis labore perferendis. Minima hic at, nostrum nihil!"
-  image : "images/watch.png"
-  button: "Buy Now With $199"
+  title : "SUKALEMON"
+  content : "Coba dan rasakan sendiri rasa asli lemon dari perkebunan lokal yang terletak di Sukabumi"
+  image : "images/Lemon/Brochure-Lemon.png"
+  button: "Manfaat Lemon"
+  ref: "feature"
 
 ############################## product ###########################
 product:
@@ -17,87 +18,83 @@ product:
 ############################# Feature ############################
 features:
   enable : true
-  title : "Our Core Features"
-  image : "images/watch-2.png"
+  title : "Manfaat Lemon"
+  image : "images/Lemon/Lemon.jpg"
 
   # feature at the left of the image
   leftSide:
     # feature item loop
-  - icon : "tf-ion-ios-alarm-outline"
-    title : "Smooth Touch"
-    content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem, inventore?"
-    
-    # feature item loop
-  - icon : "tf-ion-ios-bell-outline"
-    title : "Elegant Design"
-    content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem, inventore?"
-    
-    # feature item loop
-  - icon : "tf-ion-ios-cart-outline"
-    title : "Easy Pricing"
-    content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem, inventore?"
+  - icon : "tf-ion-social-apple-outline"
+    title : "Meningkatkan Sistem Kekebalan Tubuh"
+    content : "Vitamin C pada jeruk  lemon berfungsi sebagai antioksidan dan menambah daya tahan tubuh."
 
+  # feature item loop
+  - icon : "tf-ion-ios-cart-outline"
+    title : "Mengatasi Diabetes"
+    content : "Kandungan dalam jeruk lemon sangat baik diminum sebagai pengganti minuman yang mengandung gula tinggi khususnya bagi para penderita diabetes dimana jeruk lemon akan memberikan energi lebih dalam tubuh namun tidak akan menambahkan kadar gula yang sangat berbahaya."
+
+    # feature item loop 
+  - icon : "tf-ion-ios-alarm-outline"
+    title : "Melancarkan Pencernaan"
+    content : "Kandungan nutrisi dalam jeruk  lemon dapat meningkatkan gerakan peristaltik di perut sehingga dapat membantu buang air besar secara teratur. "
+    
+  
 
   # feature at the right of the image
   rightSide:
     # feature item loop
-  - icon : "tf-ion-ios-alarm-outline"
-    title : "Smooth Touch"
-    content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem, inventore?"
+  - icon : "tf-ion-ios-heart-outline"
+    title : "Menyehatkan Jantung"
+    content : "Kekurangan vitamin C di dalam darah bisa mengarah pada penyakit-penyakit serius yang berhubungan dengan jantung seperti stroke dan serangan jantung."
 
     # feature item loop
   - icon : "tf-ion-ios-bell-outline"
-    title : "Elegant Design"
-    content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem, inventore?"
+    title : "Menjaga Tekanan Darah"
+    content : "Mengonsumsi jeruk lemon secara teratur baik dilakukan bagi penderita masalah jantung karena kandungan potasium dalam jeruk lemon."
 
-    # feature item loop
-  - icon : "tf-ion-ios-cart-outline"
-    title : "Easy Pricing"
-    content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem, inventore?"
+  # feature item loop
+  - icon : "tf-ion-ios-barcode-outline"
+    title : "Merawat Kesehatan Mulut"
+    content : "Perawatan gigi menggunakan jeruk  lemon dapat dilakukan dengan mencampurkan air perasan jeruk lemon dan baking soda sebagai cairan pemutih gigi."
 
 
 ############################# promo ############################
 promo:
   enable : true
-  image : "images/watch.png"
-  title : "Designed by professional , the benefit for creative gigs"
-  content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia vel labore, deleniti minima
-            nisi, velit atque quaerat impedit ea maxime sunt accusamus at obcaecati dolor iure iusto omnis quis eum.
+  image : "images/Lemon/Lemon-Peras.gif"
+  title : "Produk Terbaru Kami"
+  content : "Lemon peras siap pakai, 100% air perasan lemon asli.
             <br><br>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis commodi odit, illo, qui aliquam dol"
+            Sumber vit C, untuk persiapan menghadapi \"NEW NORMAL\""
 
 
-############################# About Product #######################
+############################# About Us #######################
 aboutProduct:
   enable : true
-  title : "Why Choose Apple Watch"
+  title : "Dapat Digunakan Untuk"
   items:
-    # about product item loop
-    - image : "images/showcase/showcase-4.png"
-      title : "Lorem ipsum dolor sit amet."
-      content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate, sed, assumenda. Tenetur
-            sed esse, voluptas voluptate est veniam numquam, quis magni. Architecto minus suscipit
-            quas, quo harum deserunt consequatur cumque!"
+    # 1
+    - image : "images/Lemon/Lemon-Tea.jpg"
+      title : "Bahan Minuman"
+      content : ["Lemon tea panas/dingin", "Wedang", "Infus water", "Es campur"]
       button:
-        enable : true
+        enable : false
         label : "Check Features"
         link : "#"
         
-    # about product item loop
-    - image : "images/showcase/showcase-3.png"
-      title : "Lorem ipsum dolor sit amet."
-      content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate, sed, assumenda. Tenetur
-            sed esse, voluptas voluptate est veniam numquam, quis magni. Architecto minus suscipit
-            quas, quo harum deserunt consequatur cumque!"
+    # 2
+    - image : "images/Lemon/Lemon-Cake.jpg"
+      title : "Bahan makanan"
+      content : ["Pengganti cuka", "kue", "Penyedap rasa", "Bumbu sate", "Penetralisir bau anyir daging/ikan"]
       button:
-        enable : true
+        enable : false
         label : "Check Features"
         link : "#"
 
 
 #################################### Gallery ########################
 gallery:
-  enable : true
+  enable : false
   title : "Checkout some amazing Shorts"
   # Set the image directory to use as base
   directory : "images/showcase"
@@ -109,31 +106,33 @@ gallery:
 ################################## call to action ###################
 cta:
   enable : true
-  bgImage : "images/call-to-action.jpg"
-  title : "Get Product Updates"
-  content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod"
+  bgImage : "images/Lemon/Banner-Lemon.jpg"
+  title : "Info Lebih Lanjut?"
+  content : "Hubungi ke nomor whatsapp 08xx-xxxx-xxxx"
   placeholder : "Your Email Address Here"
 
 
 ############################## Testimonial ##########################
 testimonial:
   enable : true
-  title : "Watch Review"
+  title : "Testimoni"
+  button : "Hubungi Kami"
+  buttonRef : "#Contact-Us"
   testimonialItem:
     # testimonial item loop
-    - name : "Jonathon Andrew"
-      designation : "CEO, Themefisher"
+    - name : "Guwe"
+      designation : "IG: InstagramGuwe"
       image : "images/avater.png"
-      content : "A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart. I am alone, and feel the charm of existence in this spot, which was created for the bliss of souls like mine. I am so happy, my dear friend, so absorbed in the exquisite sense of mere tranquil existence, that I neglect my talents."
+      content : "Lemonnya enak banget gan, cocok buat teh dipagi hari"
       
     # testimonial item loop
-    - name : "Jonathon Andrew"
-      designation : "CEO, Themefisher"
+    - name : "Guwe"
+      designation : "IG: InstagramGuwe"
       image : "images/avater.png"
-      content : "A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart. I am alone, and feel the charm of existence in this spot, which was created for the bliss of souls like mine. I am so happy, my dear friend, so absorbed in the exquisite sense of mere tranquil existence, that I neglect my talents."
-      
+      content : "Lemonnya enak banget gan, cocok buat teh dipagi hari"
+
     # testimonial item loop
-    - name : "Jonathon Andrew"
-      designation : "CEO, Themefisher"
+    - name : "Guwe"
+      designation : "IG: InstagramGuwe"
       image : "images/avater.png"
-      content : "A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart. I am alone, and feel the charm of existence in this spot, which was created for the bliss of souls like mine. I am so happy, my dear friend, so absorbed in the exquisite sense of mere tranquil existence, that I neglect my talents."
+      content : "Lemonnya enak banget gan, cocok buat teh dipagi hari"

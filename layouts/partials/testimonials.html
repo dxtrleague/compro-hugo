@@ -22,19 +22,28 @@
       </div>
       {{ end }}
     </div>
-    {{ end }}
     <div class="row mt-100">
       <div class="col-md-12 text-center">
-        <button class="snipcart-add-item btn btn-main" {{with .Site.Data.homepage.product }}
+        {{/*  {{ if .button.enable }}  */}}
+          <button class="btn btn-main" onclick="location.href='{{ .buttonRef }}'">
+            {{.button}}
+          </button>
+        {{/*  {{ end }}  */}}
+      </div>
+    </div>
+    {{ end }}
+    {{/*  <div class="row mt-100">
+      <div class="col-md-12 text-center">  */}}
+        {{/*  <button class="snipcart-add-item btn btn-main" {{with .Site.Data.homepage.product }}
           data-item-id="{{ .name | urlize }}__{{ .price }}" data-item-name="{{ .name }}"
           data-item-image="{{ .image | absURL }}" data-item-price="{{ .price }}" data-item-url="{{ .Permalink }}"
           {{ if .colors }} data-item-custom1-name="Choose Color"
           data-item-custom1-options="{{ range $index, $element:= .colors }}{{ if eq $index 0 }}{{ . | title }}{{ else }}|{{ . | title }}{{ end }}{{ end }}"
           {{ end }} {{ if .sizes }} data-item-custom2-name="Choose Size"
           data-item-custom2-options="{{ range $index, $element:= .sizes }}{{ if eq $index 0 }}{{ . | title }}{{ else }}|{{ . | title }}{{ end }}{{ end }}"
-          {{ end }}{{ end }}>Grab You Product Now</button>
-      </div>
-    </div>
+          {{ end }}{{ end }}>Grab You Product Now</button>  */}}
+      {{/*  </div>
+    </div>  */}}
   </div>
 </section>
 {{ end }}

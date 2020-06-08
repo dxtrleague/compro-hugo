@@ -38,24 +38,24 @@ URL = "https://cdn.snipcart.com/themes/v3.0.3/default/snipcart.js"
 ###################################### Navigation ######################################
 
 [[menu.main]]
-name = "Feature"
+name = "Manfaat"
 URL = "feature"
 weight = 2
 
 [[menu.main]]
-name = "Gallery"
-URL = "gallery"
+name = "Kegunaan"
+URL = "feature-list"
 weight = 3
 
 [[menu.main]]
-name = "Testimonial"
+name = "Testimoni"
 URL = "testimonial"
 weight = 4
 
 
 ########################### Default parameters ##########################
 [params]
-logo = "images/dxtr.png"
+logo = "images/Lemon/sukalemon-logo.jpg"
 home = "Home"
 # Meta data
 description = "This is meta description"
