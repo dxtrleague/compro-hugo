@@ -1,7 +1,7 @@
 ################################### Default Configuration ############################
 baseurl = "https://www.example.com/"
 languageCode = "en"
-title = "Sukalemon"
+title = "DXTR"
 theme = "vex-hugo"
 
 #################################### Plugins ##########################################
@@ -38,25 +38,31 @@ URL = "https://cdn.snipcart.com/themes/v3.0.3/default/snipcart.js"
 ###################################### Navigation ######################################
 
 [[menu.main]]
-name = "Manfaat"
-URL = "feature"
+name = "Why Us"
+URL = "whyus"
 weight = 2
 
 [[menu.main]]
-name = "Kegunaan"
-URL = "feature-list"
+name = "Services"
+URL = "services"
 weight = 3
 
 [[menu.main]]
-name = "Testimoni"
-URL = "testimonial"
+name = "Relation"
+URL = "cpList"
 weight = 4
+
+[[menu.main]]
+name = "Contact"
+URL = "Contact-Us"
+weight = 5
 
 
 ########################### Default parameters ##########################
 [params]
-logo = "images/Lemon/sukalemon-logo.jpg"
+logo = "images/dxtr.png"
 home = "Home"
+bgHeader = "images/aurora-orange.jpg"
 # Meta data
 description = "This is meta description"
 author = "Themefisher"

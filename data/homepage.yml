@@ -1,11 +1,11 @@
 ############################# banner ############################
 banner:
   enable : true
-  title : "SUKALEMON"
-  content : "Coba dan rasakan sendiri rasa asli lemon dari perkebunan lokal yang terletak di Sukabumi"
-  image : "images/Lemon/Brochure-Lemon.png"
-  button: "Manfaat Lemon"
-  ref: "feature"
+  title : "We brings love in apps development"
+  content : "Sometimes we emerge from the deep sea, Fly through the sky until we reach a city, But can’t manage to make a landing. Though even developments without a logical connection Are surely all unique stories"
+  image : "images/friendly.gif"
+  button: "About Us"
+  ref: "testimonial"
 
 ############################## product ###########################
 product:
@@ -17,79 +17,118 @@ product:
 
 ############################# Feature ############################
 features:
-  enable : true
-  title : "Manfaat Lemon"
-  image : "images/Lemon/Lemon.jpg"
+  enable : false
+  title : "DXTR Stance / Our Social Media"
+  image : "images/dxtr-square.png"
 
   # feature at the left of the image
   leftSide:
     # feature item loop
-  - icon : "tf-ion-social-apple-outline"
-    title : "Meningkatkan Sistem Kekebalan Tubuh"
-    content : "Vitamin C pada jeruk  lemon berfungsi sebagai antioksidan dan menambah daya tahan tubuh."
-
-  # feature item loop
-  - icon : "tf-ion-ios-cart-outline"
-    title : "Mengatasi Diabetes"
-    content : "Kandungan dalam jeruk lemon sangat baik diminum sebagai pengganti minuman yang mengandung gula tinggi khususnya bagi para penderita diabetes dimana jeruk lemon akan memberikan energi lebih dalam tubuh namun tidak akan menambahkan kadar gula yang sangat berbahaya."
-
-    # feature item loop 
   - icon : "tf-ion-ios-alarm-outline"
-    title : "Melancarkan Pencernaan"
-    content : "Kandungan nutrisi dalam jeruk  lemon dapat meningkatkan gerakan peristaltik di perut sehingga dapat membantu buang air besar secara teratur. "
+    title : "Time Management"
+    content : "the only time is now, procrastination is disgrace."
     
-  
+    # feature item loop
+  - icon : "tf-ion-ios-monitor-outline"
+    title : "Web Application Projects"
+    content : "Java/Spring Boot/Golang/Laravel/PHP/Wordpress/Hugo"
+    
+    # feature item loop
+  - icon : "tf-ion-social-designernews-outline"
+    title : "Smart Devices Division"
+    content : "We believe that the beauty of software & hardware working together is the symbol of technology advancement and a closer step to the answers of our challenges."
+
 
   # feature at the right of the image
   rightSide:
     # feature item loop
-  - icon : "tf-ion-ios-heart-outline"
-    title : "Menyehatkan Jantung"
-    content : "Kekurangan vitamin C di dalam darah bisa mengarah pada penyakit-penyakit serius yang berhubungan dengan jantung seperti stroke dan serangan jantung."
+  - icon : "tf-ion-ios-telephone-outline"
+    title : "Communicative"
+    content : "confident, open, listen, critics are elegant manner"
 
     # feature item loop
-  - icon : "tf-ion-ios-bell-outline"
-    title : "Menjaga Tekanan Darah"
-    content : "Mengonsumsi jeruk lemon secara teratur baik dilakukan bagi penderita masalah jantung karena kandungan potasium dalam jeruk lemon."
+  - icon : "tf-ion-social-android-outline"
+    title : "Mobile Technology"
+    content : "Angular/Flutter"
 
-  # feature item loop
-  - icon : "tf-ion-ios-barcode-outline"
-    title : "Merawat Kesehatan Mulut"
-    content : "Perawatan gigi menggunakan jeruk  lemon dapat dilakukan dengan mencampurkan air perasan jeruk lemon dan baking soda sebagai cairan pemutih gigi."
+    # feature item loop
+  - icon : "tf-ion-ios-cart-outline"
+    title : "LinkedIn"
+    content : "https://www.linkedin.com/company/dxtrleague/"
 
 
 ############################# promo ############################
 promo:
   enable : true
-  image : "images/Lemon/Lemon-Peras.gif"
-  title : "Produk Terbaru Kami"
-  content : "Lemon peras siap pakai, 100% air perasan lemon asli.
+  image : "images/watch.png"
+  title : "Our Services"
+  content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia vel labore, deleniti minima
+            nisi, velit atque quaerat impedit ea maxime sunt accusamus at obcaecati dolor iure iusto omnis quis eum.
             <br><br>
-            Sumber vit C, untuk persiapan menghadapi \"NEW NORMAL\""
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis commodi odit, illo, qui aliquam dol"
 
 
 ############################# About Us #######################
 aboutProduct:
   enable : true
-  title : "Dapat Digunakan Untuk"
+  title : "Why Choose DXTR"
   items:
     # 1
-    - image : "images/Lemon/Lemon-Tea.jpg"
-      title : "Bahan Minuman"
-      content : ["Lemon tea panas/dingin", "Wedang", "Infus water", "Es campur"]
+    - image : "images/wtf.gif"
+      title : "No More Lose Domain Name"
+      content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit."
       button:
         enable : false
         label : "Check Features"
         link : "#"
         
     # 2
-    - image : "images/Lemon/Lemon-Cake.jpg"
-      title : "Bahan makanan"
-      content : ["Pengganti cuka", "kue", "Penyedap rasa", "Bumbu sate", "Penetralisir bau anyir daging/ikan"]
+    - image : "images/infinite.gif"
+      title : "User Friendly"
+      content : "Usability is a term that refers to a person's ability to use a tool or other man-made object to accomplish a specific purpose."
+      button:
+        enable : true
+        label : "Check Features"
+        link : "#"
+    # 3
+    - image : "images/invisible.gif"
+      title : "Always Available"
+      content : "We won't become invisable on working hours"
       button:
         enable : false
         label : "Check Features"
         link : "#"
+        
+    # 4
+    - image : "images/infinite.gif"
+      title : "User Friendly"
+      content : "Usability is a term that refers to a person's ability to use a tool or other man-made object to accomplish a specific purpose."
+      button:
+        enable : true
+        label : "Check Features"
+        link : "#"
+    # 5
+    - image : "images/showcase/showcase-4.png"
+      title : "Lorem ipsum dolor sit amet."
+      content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate, sed, assumenda. Tenetur
+            sed esse, voluptas voluptate est veniam numquam, quis magni. Architecto minus suscipit
+            quas, quo harum deserunt consequatur cumque!"
+      button:
+        enable : true
+        label : "Check Features"
+        link : "#"
+        
+    # 6
+    - image : "images/showcase/showcase-3.png"
+      title : "Lorem ipsum dolor sit amet."
+      content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate, sed, assumenda. Tenetur
+            sed esse, voluptas voluptate est veniam numquam, quis magni. Architecto minus suscipit
+            quas, quo harum deserunt consequatur cumque!"
+      button:
+        enable : true
+        label : "Check Features"
+        link : "#"
+
 
 
 #################################### Gallery ########################
@@ -106,33 +145,166 @@ gallery:
 ################################## call to action ###################
 cta:
   enable : true
-  bgImage : "images/Lemon/Banner-Lemon.jpg"
-  title : "Info Lebih Lanjut?"
-  content : "Hubungi ke nomor whatsapp 08xx-xxxx-xxxx"
+  bgImage : "images/aurora-orange.jpg"
+  title : "Tell Us Your Story"
+  content : "support@Dexter.id"
   placeholder : "Your Email Address Here"
 
 
 ############################## Testimonial ##########################
 testimonial:
   enable : true
-  title : "Testimoni"
-  button : "Hubungi Kami"
+  title : "Our Team"
+  button : "Contact Us"
   buttonRef : "#Contact-Us"
   testimonialItem:
     # testimonial item loop
-    - name : "Guwe"
-      designation : "IG: InstagramGuwe"
-      image : "images/avater.png"
-      content : "Lemonnya enak banget gan, cocok buat teh dipagi hari"
+    - name : "Sal Prima"
+      designation : "CEO, Themefisher"
+      image : "images/salprima.jpg"
+      content : "A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart. I am alone, and feel the charm of existence in this spot, which was created for the bliss of souls like mine. I am so happy, my dear friend, so absorbed in the exquisite sense of mere tranquil existence, that I neglect my talents."
       
     # testimonial item loop
-    - name : "Guwe"
-      designation : "IG: InstagramGuwe"
-      image : "images/avater.png"
-      content : "Lemonnya enak banget gan, cocok buat teh dipagi hari"
-
+    - name : "Sal Prima"
+      designation : "CEO, Themefisher"
+      image : "images/salprima.jpg"
+      content : "A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart. I am alone, and feel the charm of existence in this spot, which was created for the bliss of souls like mine. I am so happy, my dear friend, so absorbed in the exquisite sense of mere tranquil existence, that I neglect my talents."
+      
     # testimonial item loop
-    - name : "Guwe"
-      designation : "IG: InstagramGuwe"
-      image : "images/avater.png"
-      content : "Lemonnya enak banget gan, cocok buat teh dipagi hari"
+    - name : "Sal Prima"
+      designation : "CEO, Themefisher"
+      image : "images/salprima.jpg"
+      content : "A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart. I am alone, and feel the charm of existence in this spot, which was created for the bliss of souls like mine. I am so happy, my dear friend, so absorbed in the exquisite sense of mere tranquil existence, that I neglect my talents."
+
+
+################################## parallax ###################
+parallax:
+  enable : true
+  bgImage : "images/aurora-orange.jpg"
+  title : "WE BRING LOVE IN APPS DEVELOPMENT"
+
+
+############################# Why Us ############################
+whyus:
+  enable : true
+  title : "Why Us"
+  image : "images/dxtr-square.png"
+
+  # feature at the left of the image
+  leftSide:
+    # feature item loop
+  - icon : "tf-ion-ios-alarm-outline"
+    title : "Time Management"
+    content : "the only time is now, procrastination is disgrace."
+    
+    # feature item loop
+  - icon : "tf-ion-ios-monitor-outline"
+    title : "Web Application Projects"
+    content : "Java/Spring Boot/Golang/Laravel/PHP/Wordpress/Hugo"
+    
+    # feature item loop
+  - icon : "tf-ion-social-designernews-outline"
+    title : "Smart Devices Division"
+    content : "We believe that the beauty of software & hardware working together is the symbol of technology advancement and a closer step to the answers of our challenges."
+
+
+  # feature at the right of the image
+  rightSide:
+    # feature item loop
+  - icon : "tf-ion-ios-telephone-outline"
+    title : "Communicative"
+    content : "confident, open, listen, critics are elegant manner"
+
+    # feature item loop
+  - icon : "tf-ion-social-android-outline"
+    title : "Mobile Technology"
+    content : "Angular/Flutter"
+
+    # feature item loop
+  - icon : "tf-ion-ios-cart-outline"
+    title : "LinkedIn"
+    content : "https://www.linkedin.com/company/dxtrleague/"
+
+
+############################# our services ############################
+services:
+  enable : true 
+  title : "Our Services"
+  content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia vel labore, deleniti minima
+            nisi, velit atque quaerat impedit ea maxime sunt accusamus at obcaecati dolor iure iusto omnis quis eum.
+            <br><br>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis commodi odit, illo, qui aliquam dol"
+  iconList : 
+  - icon : "tf-ion-social-designernews-outline"
+    label : "NEWS"
+
+  - icon : "tf-ion-social-designernews-outline"
+    label : "NEWS" 
+  
+  - icon : "tf-ion-social-designernews-outline"
+    label : "NEWS"
+
+  - icon : "tf-ion-social-designernews-outline"
+    label : "NEWS" 
+
+
+############################# client & partner #######################
+clientPartner:
+  enable : true
+  title : "Client & Partner"
+  items:
+    # 1
+    - image : "images/wtf.gif"
+      title : "No More Lose Domain Name"
+      content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit."
+      button:
+        enable : false
+        label : "Check Features"
+        link : "#"
+        
+    # 2
+    - image : "images/infinite.gif"
+      title : "User Friendly"
+      content : "Usability is a term that refers to a person's ability to use a tool or other man-made object to accomplish a specific purpose."
+      button:
+        enable : true
+        label : "Check Features"
+        link : "#"
+    # 3
+    - image : "images/invisible.gif"
+      title : "Always Available"
+      content : "We won't become invisable on working hours"
+      button:
+        enable : false
+        label : "Check Features"
+        link : "#"
+        
+    # 4
+    - image : "images/infinite.gif"
+      title : "User Friendly"
+      content : "Usability is a term that refers to a person's ability to use a tool or other man-made object to accomplish a specific purpose."
+      button:
+        enable : true
+        label : "Check Features"
+        link : "#"
+    # 5
+    - image : "images/showcase/showcase-4.png"
+      title : "Lorem ipsum dolor sit amet."
+      content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate, sed, assumenda. Tenetur
+            sed esse, voluptas voluptate est veniam numquam, quis magni. Architecto minus suscipit
+            quas, quo harum deserunt consequatur cumque!"
+      button:
+        enable : true
+        label : "Check Features"
+        link : "#"
+        
+    # 6
+    - image : "images/showcase/showcase-3.png"
+      title : "Lorem ipsum dolor sit amet."
+      content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate, sed, assumenda. Tenetur
+            sed esse, voluptas voluptate est veniam numquam, quis magni. Architecto minus suscipit
+            quas, quo harum deserunt consequatur cumque!"
+      button:
+        enable : true
+        label : "Check Features"
+        link : "#"

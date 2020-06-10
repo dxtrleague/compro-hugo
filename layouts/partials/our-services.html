@@ -1,0 +1,30 @@
+{{ if .Site.Data.homepage.services.enable }}
+{{ with .Site.Data.homepage.services }}
+<section class="bg-orange section" id="services">
+  <div class="container">
+    <div class="row">
+      <div class="align-self-center text-center">
+        <div class="content">
+          <h2 class="subheading text-black font-weight-bold mb-10" style="font-size: 50px;">{{ .title | markdownify }}</h2>
+          <p class="text-black" style="font-size: 18.4px; font-weight: bold;">{{ .content | markdownify }}</p>
+
+          <div class="row">
+              <div class="col-md-12">
+                <div class="row">
+                  {{ range .iconList}}
+                    <div class="col-md-3">
+                      <i class="d-inlin-block h2 mb-10 {{ .icon }}"></i>
+                      <h4 class="font-weight-bold mb-2">{{ .label | markdownify }}</h4>
+                    </div>
+                  {{end}}
+                </div>
+              </div>
+            </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+{{ end }}
+{{ end }}
