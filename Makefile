@@ -3,3 +3,6 @@ deploy-stg:
 
 deploy-prd:
 	./deploy.sh prd "rebuilding site `date`"
+
+run-salprima:
+	hugo server --config config-salprima.toml

@@ -1,3 +1,36 @@
+/*DXTR Custom*/
+
+.parallax-header {
+  padding: 88px 0px;
+}
+
+.x-text-white {
+  color: #ffffff;
+}
+
+.heading-white h2 {
+  color: #ffffff;
+  padding-bottom: 15px;
+  text-transform: capitalize;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 40px;
+}
+
+.opacity-half {
+  opacity: 0.88;
+}
+
+.bg-grey {
+  background: darkgrey;
+}
+
+.bg-radicalred {
+  background: #ff005d;
+  padding-top: 3%;
+}
+
+
 /*--
     Common Css
 --*/
@@ -66,7 +99,6 @@ a {
 
 .bg-orange {
   background: #ff005d;
-  /* background: #d8de33; */
 }
 
 .bg-opacity {
@@ -149,7 +181,7 @@ a:active {
 }
 
 .subheading {
-  color: #3c3c3c;
+  color: #ffffff;
   padding-bottom: 15px;
   text-transform: capitalize;
   font-weight: 500;
@@ -532,15 +564,24 @@ footer p.copyright-text a:hover {
   text-decoration: none;
 }
 
-/*--
-    parallax start
---*/
+/*-- parallax start --*/
 .parallax {
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: 100%;
   background-position-y: 0px;
+  position: relative;
+  height: 28vh;
+}
 
+.parallax:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.7) !important;
 }
 
 /*# sourceMappingURL=maps/style.css.map */

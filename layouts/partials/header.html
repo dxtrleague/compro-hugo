@@ -1,9 +1,17 @@
 <!-- navigation -->
-<header class="sticky-top ">
-  <div class="bg-opacity parallax" style="background-image: url('{{ .Site.Data.homepage.parallax.bgImage | absURL }}'); ">
+<header class="sticky-top bg-radicalred">
+  <!-- <div class="bg-opacity parallax" style="background-image: url('{{ .Site.Data.homepage.parallax.bgImage | absURL }}'); "> -->
     <div class="container">
-      <nav class="navbar navbar-expand-lg navbar-light">
-        <a class="navbar-brand" href="{{ .Site.BaseURL }}">{{ if .Site.Params.logo }} <img src="{{ .Site.Params.logo | absURL }}" alt="{{ .Site.Title }}"> {{ else }} {{ .Site.Title }} {{ end }}</a>
+      <nav class="navbar navbar-expand-lg navbar-dark">
+
+        <a class="navbar-brand" href="{{ .Site.BaseURL }}">
+          {{ if .Site.Params.logo }} 
+            <img src="{{ .Site.Params.logo | absURL }}" alt="{{ .Site.Title }}"> 
+          {{ else }} 
+            {{ .Site.Title }} 
+          {{ end }}
+        </a>
+
         <button class="navbar-toggler border-0" type="button" data-toggle="collapse" data-target="#navigation"
           aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -14,14 +22,15 @@
               <a class="nav-link  text-white" href="{{ .Site.BaseURL }}">{{ .Site.Params.home }}</a>
             </li>
             {{ range .Site.Menus.main }}
-            <li class="nav-item">
-              <a class="nav-link page-scroll text-white" href="#{{ .URL }}">{{ .Name }}</a>
-            </li>
+              <li class="nav-item">
+                <a class="nav-link page-scroll text-white" href="#{{ .URL }}" onclick="$('.navbar-toggler').click();">{{ .Name }}</a>
+              </li>
             {{ end }}
           </ul>
-      </div>
+        </div>
+
       </nav>
     </div>
-  </div>
+  <!-- </div> -->
 </header>
 <!-- /navigation -->

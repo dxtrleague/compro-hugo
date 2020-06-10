@@ -1,3 +1,48 @@
+################################## parallax ###################
+parallax:
+  enable : true
+  bgImage : "images/aurora-orange.jpg"
+  title : "#LovesMatter for AppsDevelopment"
+  content : ""
+
+############################# Why Us ############################
+whyus:
+  enable : true
+  title : "Our Core Values"
+  image : "images/processor.png"
+
+  # featured items loop at the left of the image
+  leftSide:
+  - icon : "tf-ion-android-time"
+    title : "Time waits for 'No One'"
+    content : "We value every seconds by keeping your product launch schedule on time"
+  - icon : "tf-ion-android-bulb"
+    title : "Share ideas with Knowledge"
+    content : "We genuinely interested to help you building apps using the best paractice"
+  - icon : "tf-ion-android-checkbox-outline"
+    title : "Done is the plan, Perfect was complement"
+    content : "AppsDevelopment is infinite follow-through process rather than one-time rocket launch"
+  - icon : "tf-ion-android-happy"
+    title : "Trust is build upon tranparency"
+    content : "The plan, business & products are yours. We respect all of them by securing any credentials only for You"
+
+
+  # feature items loop at the right of the image
+  rightSide:
+  - icon : "tf-ion-ios-people"
+    title : "Team up side by side"
+    content : "Same energy level of cooperation is important towards effective development"
+  - icon : "tf-ion-close-circled"
+    title : "Saying 'NO' means caring"
+    content : "We love challenge, but we won't put your plan in a risk. We make peace with limitations"
+  - icon : "tf-ion-ios-paw"
+    title : "Rapid small progresses for long-term goals"
+    content : "It takes grit and time to reach the finish line, one step a day made 365 steps a year"
+  - icon : "tf-ion-android-star"
+    title : "Keep it Simple Smart"
+    content : "'Simple Stupid' was stale, We need Smarter solution that makes your business 'Simple'"
+
+
 ############################# banner ############################
 banner:
   enable : true
@@ -147,7 +192,7 @@ cta:
   enable : true
   bgImage : "images/aurora-orange.jpg"
   title : "Tell Us Your Story"
-  content : "support@Dexter.id"
+  content : "support@dexter.id"
   placeholder : "Your Email Address Here"
 
 
@@ -177,134 +222,78 @@ testimonial:
       content : "A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart. I am alone, and feel the charm of existence in this spot, which was created for the bliss of souls like mine. I am so happy, my dear friend, so absorbed in the exquisite sense of mere tranquil existence, that I neglect my talents."
 
 
-################################## parallax ###################
-parallax:
-  enable : true
-  bgImage : "images/aurora-orange.jpg"
-  title : "WE BRING LOVE IN APPS DEVELOPMENT"
 
 
-############################# Why Us ############################
-whyus:
-  enable : true
-  title : "Why Us"
-  image : "images/dxtr-square.png"
-
-  # feature at the left of the image
-  leftSide:
-    # feature item loop
-  - icon : "tf-ion-ios-alarm-outline"
-    title : "Time Management"
-    content : "the only time is now, procrastination is disgrace."
-    
-    # feature item loop
-  - icon : "tf-ion-ios-monitor-outline"
-    title : "Web Application Projects"
-    content : "Java/Spring Boot/Golang/Laravel/PHP/Wordpress/Hugo"
-    
-    # feature item loop
-  - icon : "tf-ion-social-designernews-outline"
-    title : "Smart Devices Division"
-    content : "We believe that the beauty of software & hardware working together is the symbol of technology advancement and a closer step to the answers of our challenges."
 
 
-  # feature at the right of the image
-  rightSide:
-    # feature item loop
-  - icon : "tf-ion-ios-telephone-outline"
-    title : "Communicative"
-    content : "confident, open, listen, critics are elegant manner"
-
-    # feature item loop
-  - icon : "tf-ion-social-android-outline"
-    title : "Mobile Technology"
-    content : "Angular/Flutter"
-
-    # feature item loop
-  - icon : "tf-ion-ios-cart-outline"
-    title : "LinkedIn"
-    content : "https://www.linkedin.com/company/dxtrleague/"
 
 
 ############################# our services ############################
 services:
   enable : true 
   title : "Our Services"
-  content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia vel labore, deleniti minima
-            nisi, velit atque quaerat impedit ea maxime sunt accusamus at obcaecati dolor iure iusto omnis quis eum.
-            <br><br>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis commodi odit, illo, qui aliquam dol"
+  content : ""
   iconList : 
-  - icon : "tf-ion-social-designernews-outline"
-    label : "NEWS"
-
-  - icon : "tf-ion-social-designernews-outline"
-    label : "NEWS" 
-  
-  - icon : "tf-ion-social-designernews-outline"
-    label : "NEWS"
-
-  - icon : "tf-ion-social-designernews-outline"
-    label : "NEWS" 
+  - icon : "tf-mobile"
+    label : "Desktop, Web & Mobile Application Development"
+  - icon : "tf-ion-arrow-expand"
+    label : "Digital Transformation 4.0 Consulting" 
+  - icon : "tf-ion-cloud"
+    label : "Cloud Server Architecture & Infrastructure Setup"
+  - icon : "tf-ion-network"
+    label : "Custom SaaS Platform for Ecommerce & Social Media" 
 
 
 ############################# client & partner #######################
 clientPartner:
   enable : true
-  title : "Client & Partner"
+  title : "Awesome Clients & Partners"
   items:
-    # 1
-    - image : "images/wtf.gif"
-      title : "No More Lose Domain Name"
-      content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit."
+    # 0
+    - image : "images/c000-alfadigital.png"
+      title : ""
+      content : "Indonesia's Largest Convenience Store & Retail Company"
       button:
         enable : false
-        label : "Check Features"
+        label : ""
         link : "#"
-        
-    # 2
-    - image : "images/infinite.gif"
-      title : "User Friendly"
-      content : "Usability is a term that refers to a person's ability to use a tool or other man-made object to accomplish a specific purpose."
+    # 1
+    - image : "images/c001-rasamala.png"
+      title : ""
+      content : "Rural Tourist Destination Resorts"
       button:
-        enable : true
+        enable : false
+        label : ""
+        link : "#"
+    # 2
+    - image : "images/c002-sprint.png"
+      title : ""
+      content : "Digital Channel & Mobile Payment Gateway"
+      button:
+        enable : false
         label : "Check Features"
         link : "#"
     # 3
-    - image : "images/invisible.gif"
-      title : "Always Available"
-      content : "We won't become invisable on working hours"
+    - image : "images/c003-sagara.png"
+      title : ""
+      content : "Digital Branding & IT Infrasturcutre"
       button:
         enable : false
         label : "Check Features"
         link : "#"
-        
     # 4
-    - image : "images/infinite.gif"
-      title : "User Friendly"
-      content : "Usability is a term that refers to a person's ability to use a tool or other man-made object to accomplish a specific purpose."
+    - image : "images/c004-koin.png"
+      title : ""
+      content : "Retail solution for Small Medium Enterprise Business"
       button:
-        enable : true
+        enable : false
         label : "Check Features"
         link : "#"
     # 5
-    - image : "images/showcase/showcase-4.png"
-      title : "Lorem ipsum dolor sit amet."
-      content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate, sed, assumenda. Tenetur
-            sed esse, voluptas voluptate est veniam numquam, quis magni. Architecto minus suscipit
-            quas, quo harum deserunt consequatur cumque!"
+    - image : "images/c005-poskota.png"
+      title : ""
+      content : "National Online News Portal"
       button:
-        enable : true
-        label : "Check Features"
-        link : "#"
-        
-    # 6
-    - image : "images/showcase/showcase-3.png"
-      title : "Lorem ipsum dolor sit amet."
-      content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate, sed, assumenda. Tenetur
-            sed esse, voluptas voluptate est veniam numquam, quis magni. Architecto minus suscipit
-            quas, quo harum deserunt consequatur cumque!"
-      button:
-        enable : true
+        enable : false
         label : "Check Features"
         link : "#"
