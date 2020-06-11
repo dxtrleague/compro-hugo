@@ -2,8 +2,10 @@
 parallax:
   enable : true
   bgImage : "images/aurora-orange.jpg"
-  title : "#LovesMatter for AppsDevelopment"
-  content : ""
+  title : ""
+  titleLeft : "#LovesMatter"
+  titleRight : "AppsDevelopment"
+  content : "DexterLeague stands for good causes in Software Development"
 
 ############################# Why Us ############################
 whyus:
@@ -293,6 +295,22 @@ clientPartner:
     - image : "images/c005-poskota.png"
       title : ""
       content : "National Online News Portal"
+      button:
+        enable : false
+        label : "Check Features"
+        link : "#"
+    # 6
+    - image : "images/c006-elevenia.png"
+      title : ""
+      content : "One of Major Ecommerce platform in Indonesia"
+      button:
+        enable : false
+        label : "Check Features"
+        link : "#"
+    # 7
+    - image : "images/c007-mobilepulsa.png"
+      title : ""
+      content : "Multi Channel Topup Billing Provider"
       button:
         enable : false
         label : "Check Features"
