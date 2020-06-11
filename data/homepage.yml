@@ -180,13 +180,12 @@ aboutProduct:
 
 #################################### Gallery ########################
 gallery:
-  enable : false
-  title : "Checkout some amazing Shorts"
+  enable : true
+  title : "Awesome Clients & Partners"
   # Set the image directory to use as base
-  directory : "images/showcase"
+  directory : "images/client"
   # Set the images to show in the gallery
-  images : ["showcase-1.png", "showcase-2.png", "showcase-3.png", "showcase-4.png", "showcase-5.png", "showcase-6.png", "showcase-7.png", "showcase-8.png"]
-
+  images : ["c000-alfadigital.png", "c001-rasamala.png", "c002-sprint.png", "c003-sagara.png", "c004-koin.png", "c005-poskota.png", "c006-elevenia.png", "c007-mobilepulsa.png"]
 
 
 ################################## call to action ###################
@@ -226,10 +225,6 @@ testimonial:
 
 
 
-
-
-
-
 ############################# our services ############################
 services:
   enable : true 
@@ -252,7 +247,7 @@ clientPartner:
   title : "Awesome Clients & Partners"
   items:
     # 0
-    - image : "images/c000-alfadigital.png"
+    - image : "images/client/c000-alfadigital.png"
       title : ""
       content : "Indonesia's Largest Convenience Store & Retail Company"
       button:
@@ -260,7 +255,7 @@ clientPartner:
         label : ""
         link : "#"
     # 1
-    - image : "images/c001-rasamala.png"
+    - image : "images/client/c001-rasamala.png"
       title : ""
       content : "Rural Tourist Destination Resorts"
       button:
@@ -268,7 +263,7 @@ clientPartner:
         label : ""
         link : "#"
     # 2
-    - image : "images/c002-sprint.png"
+    - image : "images/client/c002-sprint.png"
       title : ""
       content : "Digital Channel & Mobile Payment Gateway"
       button:
@@ -276,7 +271,7 @@ clientPartner:
         label : "Check Features"
         link : "#"
     # 3
-    - image : "images/c003-sagara.png"
+    - image : "images/client/c003-sagara.png"
       title : ""
       content : "Digital Branding & IT Infrasturcutre"
       button:
@@ -284,7 +279,7 @@ clientPartner:
         label : "Check Features"
         link : "#"
     # 4
-    - image : "images/c004-koin.png"
+    - image : "images/client/c004-koin.png"
       title : ""
       content : "Retail solution for Small Medium Enterprise Business"
       button:
@@ -292,7 +287,7 @@ clientPartner:
         label : "Check Features"
         link : "#"
     # 5
-    - image : "images/c005-poskota.png"
+    - image : "images/client/c005-poskota.png"
       title : ""
       content : "National Online News Portal"
       button:
@@ -300,7 +295,7 @@ clientPartner:
         label : "Check Features"
         link : "#"
     # 6
-    - image : "images/c006-elevenia.png"
+    - image : "images/client/c006-elevenia.png"
       title : ""
       content : "One of Major Ecommerce platform in Indonesia"
       button:
@@ -308,10 +303,27 @@ clientPartner:
         label : "Check Features"
         link : "#"
     # 7
-    - image : "images/c007-mobilepulsa.png"
+    - image : "images/client/c007-mobilepulsa.png"
       title : ""
       content : "Multi Channel Topup Billing Provider"
       button:
         enable : false
         label : "Check Features"
         link : "#"
+
+
+  ################## Sosmed #################
+sosmed :
+  enable : true
+  list :
+  - icon : "tf-ion-social-linkedin"
+    link : ""
+
+  - icon : "tf-ion-social-facebook"
+    link : ""  
+  
+  - icon : "tf-ion-social-twitter"
+    link : ""
+
+  - icon : "tf-ion-social-whatsapp"
+    link : ""  

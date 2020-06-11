@@ -3,7 +3,7 @@
     <div class="row">
       <div class="col-md-12">
         <div class="block">
-          <a href="{{ .Site.BaseURL }}" class="footer-logo mb-4">{{ if .Site.Params.logo }} <img src="{{ .Site.Params.logo | absURL }}" alt="{{ .Site.Title }}"> {{ else }} {{ .Title }} {{ end }}</a>
+          {{/*  <a href="{{ .Site.BaseURL }}" class="footer-logo mb-4">{{ if .Site.Params.logo }} <img src="{{ .Site.Params.logo | absURL }}" alt="{{ .Site.Title }}"> {{ else }} {{ .Title }} {{ end }}</a>  */}}
           <ul class="list-inline footer-menu">
             <li class="list-inline-item">
               <a href="{{ .Site.BaseURL }}">{{ .Site.Params.home }}</a>
@@ -14,6 +14,19 @@
             </li>
             {{ end }}
           </ul>
+
+          {{ if .Site.Data.homepage.sosmed.enable }}
+          {{- with .Site.Data.homepage.sosmed }}
+          <ul class="list-inline footer-menu">
+            {{ range .list }}
+            <li class="list-inline-item ">
+              <i href="{{ .link }}" class="{{ .icon }}"></i>
+            </li>
+            {{ end }}
+          </ul>
+          {{ end }}
+        {{ end }}
+
           <p class="copyright-text">{{ .Site.Params.copyright | markdownify }}</p>
         </div>
       </div>
