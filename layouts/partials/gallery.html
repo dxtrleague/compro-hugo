@@ -8,7 +8,7 @@
           <h2>{{ .title | markdownify }}</h2>
         </div>
 
-        <div class="gallery-slider">
+        <div class="gallery-slider value-image">
           {{- $basePath := relURL .directory }}
           {{- range .images }}
           <div class="block">

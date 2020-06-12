@@ -9,7 +9,7 @@
               <a href="{{ .Site.BaseURL }}">{{ .Site.Params.home }}</a>
             </li>
             {{ range .Site.Menus.main }}
-            <li class="list-inline-item">
+            <li class="list-inline-item footer-menu">
               <a class="page-scroll" href="#{{ .URL }}">{{ .Name }}</a>
             </li>
             {{ end }}
@@ -17,10 +17,10 @@
 
           {{ if .Site.Data.homepage.sosmed.enable }}
           {{- with .Site.Data.homepage.sosmed }}
-          <ul class="list-inline footer-menu">
+          <ul class="list-inline footer-menu" style="margin-top: 8px;">
             {{ range .list }}
             <li class="list-inline-item ">
-              <i href="{{ .link }}" class="{{ .icon }}"></i>
+              <i href="{{ .link }}" style="margin-right: 13px;" class="{{ .icon }}"></i>
             </li>
             {{ end }}
           </ul>

@@ -32,7 +32,7 @@
 
 .bg-radicalred {
   background: #ff005d;
-  padding-top: 3%;
+  /* padding-top: 3%; */
 }
 
 
@@ -576,7 +576,7 @@ footer p.copyright-text a:hover {
   background-size: 100%;
   background-position-y: 0px;
   position: relative;
-  height: 28vh;
+  height: 450px;
 }
 
 .parallax:before {
@@ -590,3 +590,55 @@ footer p.copyright-text a:hover {
 }
 
 /*# sourceMappingURL=maps/style.css.map */
+
+
+/* Mobile View */
+
+@media only screen and (min-width : 320px) and (max-width : 760px) { 
+
+  .bg-radicalred {
+    background: #ff005d;
+    padding-top: 0%;
+  }
+
+  .parallax {
+    background-attachment: fixed;
+    background-repeat: repeat-y;
+    background-size: 100%;
+    background-position-y: 0px;
+    position: relative;
+    height: 35px;
+  }
+
+  .parallax:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.7) !important;
+  }
+
+  .value-image {
+    width: 60%;
+  }
+
+  .footer-menu a {
+    font-size: 14;
+    font-weight: 700;
+    color: #444;
+    padding: 5px;
+  }
+
+  footer p.copyright-text {
+    font-size: 12px;
+  }
+  
+  @media only screen and (max-width: 455px){
+  footer p.copyright-text {
+    font-size: 10px;
+  }
+}
+
+}
