@@ -4,13 +4,14 @@ parallax:
   bgImage : "images/aurora-orange.jpg"
   title : ""
   titleLeft : "#LovesMatter"
-  titleRight : "AppsDevelopment"
-  content : "DexterLeague stands for good causes in Software Development"
+  titleRight : "You"
+  content : ""
 
 ############################# Why Us ############################
 whyus:
   enable : true
-  title : "Our Core Values"
+  title : "DXTRLeague Core Values"
+  subtitle : "we stands for good causes in software development"
   image : "images/processor.png"
 
   # featured items loop at the left of the image
@@ -193,8 +194,8 @@ cta:
   enable : true
   bgImage : "images/aurora-orange.jpg"
   title : "Tell Us Your Story"
-  content : "support@dexter.id"
-  placeholder : "Your Email Address Here"
+  content : "hello@dexter.id"
+  placeholder : "hello@dexter.id"
 
 
 ############################## Testimonial ##########################
@@ -229,16 +230,16 @@ testimonial:
 services:
   enable : true 
   title : "Our Services"
-  content : ""
+  content : "We assist you to create, customize & maintenance almost all IT related operations"
   iconList : 
   - icon : "tf-mobile"
     label : "Desktop, Web & Mobile Application Development"
   - icon : "tf-ion-arrow-expand"
-    label : "Digital Transformation 4.0 Consulting" 
+    label : "Digital Transformation & Data Analytic Consulting" 
   - icon : "tf-ion-cloud"
     label : "Cloud Server Architecture & Infrastructure Setup"
   - icon : "tf-ion-network"
-    label : "Custom SaaS Platform for Ecommerce & Social Media" 
+    label : "SaaS Platforms for Ecommerce & Social Media" 
 
 
 ############################# client & partner #######################
@@ -312,18 +313,18 @@ clientPartner:
         link : "#"
 
 
-  ################## Sosmed #################
+################## Sosmed #################
 sosmed :
   enable : true
   list :
   - icon : "tf-ion-social-linkedin"
-    link : ""
-
-  - icon : "tf-ion-social-facebook"
-    link : ""  
+    link : "https://www.linkedin.com/company/dxtrleague"
   
   - icon : "tf-ion-social-twitter"
-    link : ""
+    link : "https://twitter.com/dxtrleague"
+
+  - icon : "tf-ion-social-github"
+    link : "https://github.com/dxtrleague"
 
   - icon : "tf-ion-social-whatsapp"
-    link : ""  
+    link : "https://wa.me/6287781504968"  

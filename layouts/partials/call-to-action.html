@@ -4,8 +4,8 @@
   <div class="container"> 
     <div class="row">
       <div class="col-lg-6 col-md-8 text-center mx-auto">
-        <h2 class="subheading text-white">{{ .title | markdownify }}</h2>
-        <p class="text-white">{{ .content | markdownify }}</p>
+        <h1 class="text-white">{{ .title | markdownify }}</h1>
+        <h2 class="text-white"><a href="mailto:{{ .content }}?subject=Hello DXTRLeague" class="contact-email"><i class="tf-ion-email"></i>&nbsp;<span>{{ .content }}</span></a></h2>
         {{/*  <div class="input-group">
           <form name="contact" {{ if .args }}{{ .args | safeHTMLAttr }}{{ else }}action="#"{{ end }} class="w-100">
             <input type="email" id="email" class="form-control" name="email" placeholder="{{ .placeholder }}"

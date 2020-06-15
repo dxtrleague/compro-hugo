@@ -35,6 +35,17 @@
   /* padding-top: 3%; */
 }
 
+.contact-email{
+  color: #FFFFFF;
+  background: #ff005d;
+  font-family: "Josefin Sans", sans-serif;
+  padding: 8px;
+}
+.contact-email:hover{
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
 
 /*--
     Common Css

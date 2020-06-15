@@ -6,28 +6,31 @@
           {{/*  <a href="{{ .Site.BaseURL }}" class="footer-logo mb-4">{{ if .Site.Params.logo }} <img src="{{ .Site.Params.logo | absURL }}" alt="{{ .Site.Title }}"> {{ else }} {{ .Title }} {{ end }}</a>  */}}
           <ul class="list-inline footer-menu">
             <li class="list-inline-item">
-              <a href="{{ .Site.BaseURL }}">{{ .Site.Params.home }}</a>
+              <a href="{{ .Site.BaseURL }}" style="text-decoration: none;">{{ .Site.Params.home }}</a>
             </li>
             {{ range .Site.Menus.main }}
             <li class="list-inline-item footer-menu">
-              <a class="page-scroll" href="#{{ .URL }}">{{ .Name }}</a>
+              <a class="page-scroll" href="#{{ .URL }}" style="text-decoration: none;">{{ .Name }}</a>
             </li>
             {{ end }}
           </ul>
 
           {{ if .Site.Data.homepage.sosmed.enable }}
-          {{- with .Site.Data.homepage.sosmed }}
-          <ul class="list-inline footer-menu" style="margin-top: 8px;">
-            {{ range .list }}
-            <li class="list-inline-item ">
-              <i href="{{ .link }}" style="margin-right: 13px;" class="{{ .icon }}"></i>
-            </li>
+            {{- with .Site.Data.homepage.sosmed }}
+              <ul class="list-inline footer-menu" style="margin: 8px;">
+                {{ range .list }}
+                  <li class="list-inline-item">
+                    <a href="{{ .link }}" target="_blank" style="margin: 19px; cursor: pointer; text-decoration: none;">
+                      <span class="{{ .icon }}" style="font-size: 32px;"></span>
+                    </a>
+                  </li>
+                {{ end }}
+              </ul>
             {{ end }}
-          </ul>
           {{ end }}
-        {{ end }}
 
           <p class="copyright-text">{{ .Site.Params.copyright | markdownify }}</p>
+
         </div>
       </div>
     </div>

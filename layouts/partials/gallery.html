@@ -1,6 +1,7 @@
 {{ if .Site.Data.homepage.gallery.enable }}
 {{ with .Site.Data.homepage.gallery }}
 <section class="gallery" id="gallery">
+  <br/><br/><br/><br/>
   <div class="container">
     <div class="row">
       <div class="col-md-12">
@@ -11,14 +12,14 @@
         <div class="gallery-slider value-image">
           {{- $basePath := relURL .directory }}
           {{- range .images }}
-          <div class="block">
-            <div class="gallery-overlay">
-              <a href="{{ $basePath }}/{{ . }}" class="image-popup gallery-popup">
-                <i class="tf-ion-ios-search"></i>
-              </a>
+            <div class="block">
+              <div class="gallery-overlay">
+                <a href="{{ $basePath }}/{{ . }}" class="image-popup gallery-popup">
+                  <i class="tf-ion-ios-search"></i>
+                </a>
+              </div>
+              <img class="img-fluid" src="{{ $basePath }}/{{ . }}" alt="">
             </div>
-            <img class="img-fluid" src="{{ $basePath }}/{{ . }}" alt="">
-          </div>
           {{- end }}
         </div>
       </div>
