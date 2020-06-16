@@ -1,5 +1,5 @@
 ################################### Default Configuration ############################
-baseurl = "https://dxtrleague.github.io/"
+baseurl = "https://dexter.id/"
 languageCode = "en"
 title = "DXTR"
 theme = "vex-hugo"
@@ -71,7 +71,7 @@ google_analitycs_id = "" # Your ID
 # snipcart public api key
 snipcart_api = "ZDgxY2ZiM2EtMWRmMi00M2ZkLWI1MDAtNzA2MDc0Y2Q1MzJlNjM3MTAzNDIwOTQ1NDA4NjM4"
 # copyright
-copyright = "Copyright 2020 &copy; [DexterLeague](https://dxtrleague.github.io) | All right reserved."
+copyright = "Copyright 2020 &copy; [DexterLeague](https://dexter.id) | All right reserved."
 
 # Preloader
 [params.preloader]
