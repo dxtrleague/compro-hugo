@@ -38,25 +38,31 @@ URL = "https://cdn.snipcart.com/themes/v3.0.3/default/snipcart.js"
 ###################################### Navigation ######################################
 
 [[menu.main]]
-name = "Feature"
-URL = "feature"
+name = "Why Us"
+URL = "whyus"
 weight = 2
 
 [[menu.main]]
-name = "Gallery"
-URL = "gallery"
+name = "Services"
+URL = "services"
 weight = 3
 
 [[menu.main]]
-name = "Testimonial"
-URL = "testimonial"
+name = "Relation"
+URL = "cpList"
 weight = 4
+
+[[menu.main]]
+name = "Contact"
+URL = "Contact-Us"
+weight = 5
 
 
 ########################### Default parameters ##########################
 [params]
 logo = "images/dxtr.png"
 home = "Home"
+bgHeader = "images/aurora-orange.jpg"
 # Meta data
 description = "This is meta description"
 author = "Themefisher"
