@@ -600,6 +600,7 @@ footer p.copyright-text a:hover {
   background: rgba(0, 0, 0, 0.7) !important;
 }
 
+
 /*# sourceMappingURL=maps/style.css.map */
 
 
@@ -629,6 +630,15 @@ footer p.copyright-text a:hover {
     right: 0;
     bottom: 0;
     background: rgba(0, 0, 0, 0.7) !important;
+  }
+
+  .heading-white h2 {
+    color: #ffffff;
+    padding-bottom: 15px;
+    text-transform: capitalize;
+    font-weight: 700;
+    font-size: 23px;
+    line-height: 40px;
   }
 
   .value-image {
