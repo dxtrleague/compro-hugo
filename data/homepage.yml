@@ -1,3 +1,8 @@
+#################### Header Navigation ####################
+navheader:
+  bgImage : "images/black-hello.jpg"
+
+
 ################################## parallax ###################
 parallax:
   enable : true
