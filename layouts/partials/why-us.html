@@ -9,9 +9,26 @@
           <h3>{{ .subtitle | markdownify }}</h3>
         </div>
       </div>
+
+      <div class="col-md-12">
+      <div class="row">
+        <div class="col-md-3"></div>
+        {{ range .topSide }}
+            <div class="col-md-6">
+              <div class="mb-40 text-center text-md-center">
+                <i class="d-inlin-block h2 mb-10 {{ .icon }}"></i>
+                <h4 class="font-weight-bold mb-2">{{ .title | markdownify }}</h4>
+                <p>{{ .content | markdownify }}</p>
+              </div>
+            </div>
+          {{ end }}
+          <div class="col-md-3"></div>
+        </div>
+      </div>
+
       <div class="col-md-4">
         {{ range .leftSide }}
-        <div class="mb-40 text-center text-md-left">
+        <div class="mb-40 text-center text-md-center">
           <i class="d-inlin-block h2 mb-10 {{ .icon }}"></i>
           <h4 class="font-weight-bold mb-2">{{ .title | markdownify }}</h4>
           <p>{{ .content | markdownify }}</p>
@@ -23,13 +40,30 @@
       </div>
       <div class="col-md-4">
           {{ range .rightSide }}
-        <div class="mb-40 text-center text-md-left">
+        <div class="mb-40 text-center text-md-center">
           <i class="d-inlin-block h2 mb-10 {{ .icon }}"></i>
           <h4 class="font-weight-bold mb-2">{{ .title | markdownify }}</h4>
           <p>{{ .content | markdownify }}</p>
         </div>
         {{ end }}
       </div>
+
+      <div class="col-md-12">
+        <div class="row">
+          <div class="col-md-3"></div>
+          {{ range .botSide }}
+              <div class="col-md-6">
+                <div class="mb-40 text-center text-md-center">
+                  <i class="d-inlin-block h2 mb-10 {{ .icon }}"></i>
+                  <h4 class="font-weight-bold mb-2">{{ .title | markdownify }}</h4>
+                  <p>{{ .content | markdownify }}</p>
+                </div>
+              </div>
+            {{ end }}
+            <div class="col-md-3"></div>
+          </div>
+        </div>
+
     </div>
   </div><!-- .container close -->
 </section>
