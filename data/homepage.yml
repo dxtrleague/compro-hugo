@@ -6,6 +6,8 @@ parallax:
   titleLeft : "#LovesMatter"
   titleRight : "You"
   content : ""
+  quoteLeft : ['LovesMatter', 'DoneMatter', 'WorksMatter', 'SecureMatter', 'UXMatter', 'UIMatter', 'UsableMatter', 'FastMatter']
+  quoteRight : ['Mobile Apps', 'CRM Software', 'ERP Dashboard', 'Booking Apps', 'Micro Payments', 'Topup Billing', 'Point of Sales']
 
 ############################# Why Us ############################
 whyus:
@@ -14,11 +16,17 @@ whyus:
   subtitle : "we stands for good causes in software development"
   image : "images/processor.png"
 
-  # featured items loop at the left of the image
-  leftSide:
+   # featured items at the top of the image
+  topSide:
   - icon : "tf-ion-android-time"
     title : "Time waits for 'No One'"
     content : "We value every seconds by keeping your product launch schedule on time"
+
+  # featured items loop at the left of the image
+  leftSide:
+  # - icon : "tf-ion-android-time"
+  #   title : "Time waits for 'No One'"
+  #   content : "We value every seconds by keeping your product launch schedule on time"
   - icon : "tf-ion-android-bulb"
     title : "Share ideas with Knowledge"
     content : "We genuinely interested to help you building apps using the best paractice"
@@ -41,6 +49,12 @@ whyus:
   - icon : "tf-ion-ios-paw"
     title : "Rapid small progresses for long-term goals"
     content : "It takes grit and time to reach the finish line, one step a day made 365 steps a year"
+  # - icon : "tf-ion-android-star"
+  #   title : "Keep it Simple Smart"
+  #   content : "'Simple Stupid' was stale, We need Smarter solution that makes your business 'Simple'"
+
+  # feature items loop at the right of the image
+  botSide:
   - icon : "tf-ion-android-star"
     title : "Keep it Simple Smart"
     content : "'Simple Stupid' was stale, We need Smarter solution that makes your business 'Simple'"

@@ -1,6 +1,22 @@
 {{- if .Site.Data.homepage.parallax.enable }}
 {{- with .Site.Data.homepage.parallax }}
 <section id="parallax-header" class="parallax parallax-header bg-opacity" style="background-image: url('{{ .bgImage | absURL }}');">
+ 
+  <div style="display: none;">
+    {{ range .quoteLeft }}
+    <ul id="quoteLeft">
+      <li>{{ . }}</li>
+    </ul>    
+    {{ end }}
+  </div>
+
+  <ul>
+    <li></li>
+  </ul>
+  <div style="display: none;" id="quoteRight" value="{{ .quoteRight }}">
+
+  </div>
+ 
   <div class="container"> 
     <div class="row">
       <div class="col-md-10 text-center mx-auto">

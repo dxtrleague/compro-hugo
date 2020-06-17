@@ -1,7 +1,7 @@
 ################################### Default Configuration ############################
 baseurl = "https://www.example.com/"
 languageCode = "en"
-title = "DXTR"
+title = "DexterLeague - Ideas sparked, let's build something up!"
 theme = "vex-hugo"
 
 #################################### Plugins ##########################################
