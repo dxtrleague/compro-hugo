@@ -606,12 +606,28 @@ footer p.copyright-text a:hover {
 }
 
 
+/* .text-shadow-contact{
+  text-shadow: 2px 2px white;
+} */
+
 /*# sourceMappingURL=maps/style.css.map */
 
 
 /* Mobile View */
 
 @media only screen and (min-width : 320px) and (max-width : 760px) { 
+
+  .core-val{
+    font-size: 17px;
+  }
+
+  /* .row{
+    width: 100%;
+  } */
+
+  .col-md-3{
+    padding: none;
+  }
 
   .bg-radicalred {
     background: #ff005d;
@@ -658,12 +674,7 @@ footer p.copyright-text a:hover {
   }
 
   footer p.copyright-text {
-    font-size: 12px;
-  }
-  
-  @media only screen and (max-width: 455px){
-  footer p.copyright-text {
-    font-size: 10px;
+    font-size: 11px;
   }
 }
 
