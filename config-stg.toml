@@ -1,5 +1,5 @@
 ################################### Default Configuration ############################
-baseurl = "https://dxtrleague.github.io/"
+baseurl = "https://dexter.id/"
 languageCode = "en"
 title = "DexterLeague - Ideas sparked, let's build something up!"
 theme = "vex-hugo"
@@ -64,16 +64,16 @@ logo = "images/dxtr.png"
 home = "Home"
 bgHeader = "images/aurora-orange.jpg"
 # Meta data
-description = "This is meta description"
-author = "Themefisher"
+description = "Software development process should be transparent, to the point and producing make sense application"
+author = "DexterLeague"
 # Google Analitycs
 google_analitycs_id = "" # Your ID
 # snipcart public api key
 snipcart_api = "ZDgxY2ZiM2EtMWRmMi00M2ZkLWI1MDAtNzA2MDc0Y2Q1MzJlNjM3MTAzNDIwOTQ1NDA4NjM4"
 # copyright
-copyright = "Copyright 2020 &copy; [DexterLeague](https://dxtrleague.github.io) | All right reserved."
+copyright = "Copyright 2020 &copy; [DexterLeague](https://dexter.id) All rights reserved"
 
 # Preloader
 [params.preloader]
-enable = true
+enable = false
 preloader = "" # use .png , .svg or .gif format

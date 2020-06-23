@@ -19,8 +19,8 @@ URL = "css/themefisher-fonts.css"
 URL = "css/owl.carousel.css"
 [[params.plugins.css]]
 URL = "css/magnific-popup.css"
-[[params.plugins.css]]
-URL = "https://cdn.snipcart.com/themes/v3.0.3/default/snipcart.css"
+# [[params.plugins.css]]
+# URL = "https://cdn.snipcart.com/themes/v3.0.3/default/snipcart.css"
 
 # JS Plugins
 [[params.plugins.js]]
@@ -31,8 +31,8 @@ URL = "js/bootstrap.min.js"
 URL = "js/owl.carousel.min.js"
 [[params.plugins.js]]
 URL = "js/jquery.magnific-popup.min.js"
-[[params.plugins.js]]
-URL = "https://cdn.snipcart.com/themes/v3.0.3/default/snipcart.js"
+# [[params.plugins.js]]
+# URL = "https://cdn.snipcart.com/themes/v3.0.3/default/snipcart.js"
 
 
 ###################################### Navigation ######################################
@@ -69,11 +69,11 @@ author = "Themefisher"
 # Google Analitycs
 google_analitycs_id = "" # Your ID
 # snipcart public api key
-snipcart_api = "ZDgxY2ZiM2EtMWRmMi00M2ZkLWI1MDAtNzA2MDc0Y2Q1MzJlNjM3MTAzNDIwOTQ1NDA4NjM4"
+# snipcart_api = "ZDgxY2ZiM2EtMWRmMi00M2ZkLWI1MDAtNzA2MDc0Y2Q1MzJlNjM3MTAzNDIwOTQ1NDA4NjM4"
 # copyright
-copyright = "Copyright 2020 &copy; [DexterLeague](https://dxtrleague.github.io) | All right reserved."
+copyright = "Copyright 2020 &copy; [DexterLeague](https://dxtrleague.github.io) All rights reserved"
 
 # Preloader
 [params.preloader]
-enable = true
+enable = false
 preloader = "" # use .png , .svg or .gif format
